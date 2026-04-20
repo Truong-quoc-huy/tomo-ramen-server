@@ -56,7 +56,7 @@ app.post('/api/auth/login', async (req, res) => {
 // 4. Khởi động Server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Server Tomo Ramen đang chạy tại: http://localhost:${PORT}`);
+  console.log(`🚀 Server Tomo Ramen đang chạy tại: http://192.168.234.210:${PORT}`);
 });
 
 // API Lấy danh sách tất cả món ăn
